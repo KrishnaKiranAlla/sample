@@ -33,6 +33,15 @@ const contact=()=>{
      </div>
   )
 };
+const services=()=>{
+  return(
+<div>
+      <Nav/>
+    
+     </div>
+  )
+};
+
 class App extends Component {
   render() {
     return (
@@ -41,6 +50,8 @@ class App extends Component {
         <Route exact path="/" component={home} />
         <Route exact path="/about" component={about} />
         <Route exact path="/kiran" component={contact} />
+        <Route exact path="/service" component={services} />
+        
         </div>
       </Router>
 

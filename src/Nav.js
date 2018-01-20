@@ -22,7 +22,7 @@ class Nav extends Component {
                 <a className="nav-link" href="/about">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Services</a>
+                <a className="nav-link" href="/service">Services</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/kiran">Contact</a>
